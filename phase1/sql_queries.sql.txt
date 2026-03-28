@@ -1,0 +1,7 @@
+sql_queries.sql
+
+SELECT * FROM customers;
+SELECT * FROM customers WHERE city = 'Chennai';
+SELECT * FROM customers WHERE age > 25;
+SELECT customer_name,city FROM customers;
+SELECT city, COUNT(*) AS total_customers FROM customers GROUP BY city;
